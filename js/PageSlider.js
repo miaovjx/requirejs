@@ -519,7 +519,7 @@
                 }, false);
 
                 //切换音乐播放
-                $(".u-btn-play").live('tap', function () {
+                $(".u-btn-play").on('tap', function () {
                     if (bgmusic.paused) {
                         bgmusic.play();
                         $(this).removeClass("zanting").addClass('rotate');

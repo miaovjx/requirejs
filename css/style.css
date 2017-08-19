@@ -261,6 +261,106 @@ html, body {
     display: block ;
 }
 /* page1 */
+.page1 {background:#04101c url(../images/bg1.jpg) no-repeat;}
+.p1_1{ position: absolute; left: 43%; top: 4%; }
+.p1_2{ position: absolute; left: 9%; top: 23%; }
+.p1_3{ position: absolute; left: 40%; top: 16%; }
+.p1_4{ position: absolute; left: 66%; top: 23%; }
+.btn_start { display: block; width: 125px; height: 125px; position: absolute; top: 790px; left: 40%; z-index: 10; background: url(../images/kai_btn.png) no-repeat; text-align: center; line-height: 138px;}
+/*p2*/
+.page2 {background:#04101c url(../images/bg2.jpg) no-repeat;}
+.p2_1{ position: absolute; left: 53%; top: 11%; }
+.p2_2{ position: absolute; left: 44%; top: 19%; }
+
+
+/*p3*/
+.page3 {background:#04101c url(../images/bg3.jpg) no-repeat;}
+.p3_1{ position: absolute; left: 220px; top: 560px;}
+.p3_2{ position: absolute; left: 51%; top: 15%; }
+.p3_3{ position: absolute; left: 42%; top: 14%; }
+
+/*p4*/
+.page4 {background:#04101c url(../images/bg4.jpg) no-repeat;}
+.p4_1{ position: absolute; left: 65%; top: 6%;}
+.p4_2{ position: absolute; left: 74%; top: 15%; }
+.p4_3{ position: absolute; left: 63%; top: 18%; }
+.p4_4{ position: absolute; left: 46%; top: 17%; }
+.p4_5{ position: absolute; left: 20px; top: 420px; }
+
+
+.p4_6{ position: absolute; left: -27%; top: 25%; }
+.p4_7{ position: absolute; left: 0%; top: 49%; }
+.p4_8{ position: absolute; left: 0%; top: 26%; }
+.p4_9{ position: absolute; left: 0%; bottom: 1%; }
+.p4_10{ position: absolute; left: 0%; top: 0%; }
+/*p5*/
+.page5 {background:#04101c url(../images/bg5.jpg) no-repeat;}
+.p5_1{ position: absolute; left: 39%; top: 9%;}
+.p5_2{ position: absolute; left: 48%; top: 20%; }
+.p5_3{ position: absolute; left: 38%; top: 18%; }
+.p5_4{ position: absolute; left: 21%; top: 20%; }
+.p5_5{ position: absolute; left: 34%; top: 39%; }
+.p5_6{ position: absolute; left: 0%; top: 460px; }
+.p5_7{ position: absolute; left: 0%; top: 52%; }
+.p5_8{ position: absolute; left: 0%; bottom: 2%; }
+.p5_9{ position: absolute; right: 0%; top: 0%; }
+.pa {
+    position: absolute;
+}
+.current .page-inner {display: block; height: 100%; }
+/*pg6*/
+    .page6{ background: url(../images/p6_bg.jpg) top center no-repeat; background-size: 100% 100%; }
+    .page6 .page-inner{ overflow: hidden; }
+        .p6-a1{ top: 0; left: 0; }
+        .p6-a2{ bottom: 244px; left: 0; }
+        .p6-box{ width: 240px; height: 480px; margin: 90px auto 0; overflow: hidden; }
+            .p6-1{ left: 136px; top: 0; }
+            .p6-2{ right: 0; top: 122px; }
+            .p6-3{ right: 75px; top: 115px; }
+            .p6-4{ left: 0; top: 126px; }
+
+    /*pg7*/
+    .page7{ background: url(../images/p7_bg.jpg) top center no-repeat; background-size: 100% 100%; }
+    .page7 .page-inner{ overflow: hidden; }
+        .p7-a1{ top: 320px; right: 0; }
+        .p7-a2{ bottom: 0; right: 0; }
+        .p7-box{ width: 240px; height: 480px; margin: 90px auto 0; overflow: hidden; }
+            .p7-1{ left: 136px; top: 0; }
+            .p7-2{ right: 0; top: 122px; }
+            .p7-3{ right: 75px; top: 115px; }
+            .p7-4{ left: 0; top: 126px; }
+
+    /*pg8*/
+    .page8{ background: url(../images/p8_bg.jpg) top center no-repeat; background-size: 100% 100%; }
+    .page8 .page-inner{ overflow: hidden; }
+        .p8-a1{ top: 0; left: 0; }
+        .p8-a2{ top: 0; right: 0; }
+        .p8-box{ width: 240px; height: 480px; margin: 90px 0 0 140px; overflow: hidden; }
+            .p8-1{ left: 136px; top: 0; }
+            .p8-2{ right: 0; top: 122px; }
+            .p8-3{ right: 75px; top: 115px; }
+            .p8-4{ left: 0; top: 126px; }
+
+    /*pg9*/
+    .page9{ background: url(../images/p9_bg.jpg) top center no-repeat; background-size: 100% 100%; }
+    .page9 .page-inner{ overflow: hidden; }
+        .p9-a1{ top: 0; left: 0; }
+        .p9-a2{ top: 200px; right: 0; }
+        .p9-box{ width: 240px; height: 480px; margin: 90px 0 0 140px; overflow: hidden; }
+            .p9-1{ left: 136px; top: 0; }
+            .p9-2{ right: 0; top: 122px; }
+            .p9-3{ right: 75px; top: 115px; }
+            .p9-4{ left: 0; top: 126px; }
+
+    /*pg10*/
+    .page10{ background: url(../images/p10_bg.jpg) top center no-repeat; background-size: 100% 100%; }
+    .page10 .page-inner{ overflow: hidden; text-align: center; }
+        .p10-1{ margin-top: 500px; }
+        .p10-lists{ width: 386px; height: 112px; margin: 40px auto 0; overflow: hidden; background: url(../images/p10_2.png) no-repeat center; }
+        .p10-lists li{ width: 300px; height: 49px; margin-left: 84px; line-height: 49px; font-size: 24px; color: #fff; text-align: left; }
+        .p10-lists li:nth-child(1){ margin-bottom: 14px; }
+        .p10-lists li input{ width: 100%; color: #fff; font-size: 16px; text-align: left; border: none; background: none; }
+        .p10-btn{ display: block; width: 262px; height: 69px;  position: absolute; left: 29%; bottom: 5%; background: url(../images/p10_btn.jpg) no-repeat; z-index: 10;}
 
 
 
